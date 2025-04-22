@@ -1,16 +1,10 @@
 import React from "react";
-import {Card} from "./Card"
+import { Footer } from "./Footer";
+
 
 const Home = () => {
 	return (
-		<div className="container-fluid">
-			<div className="row justify-content-around">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-			</div>
-		</div>
+		<Footer />
 	);
 };
 
