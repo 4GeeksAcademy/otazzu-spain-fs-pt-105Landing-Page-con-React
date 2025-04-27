@@ -8,9 +8,9 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="container-fluid w-75">
+			<div className="container-fluid w-75 min-vh-100">
 				<Header />
-				<div className="justify-content-evenly">
+				<div className="row justify-content-around">
 					<Card />
 					<Card />
 					<Card />
