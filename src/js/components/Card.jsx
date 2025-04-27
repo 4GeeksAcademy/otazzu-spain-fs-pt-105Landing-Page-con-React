@@ -8,10 +8,10 @@ export const Card = () => {
             <img src="https://picsum.photos/200" className="card-img-top" alt="photo"/>
             <div className="card-body">
                 <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut efficitur ipsum, vel rhoncus nisl. Nulla egestas tristique mauris, at luctus magna.</p>
             </div>
             <div className="border-top pt-4 pb-4 w-100">
-                    <a href="#" className="btn btn-primary">Click for more!</a>
+                    <a href="#" className="btn btn-primary">Find out more!</a>
             </div>
         </div>
     );
